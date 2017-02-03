@@ -8,7 +8,7 @@ favicon: /favicon.png
 monochrome: true
 
 # view setting
-avatar: https://cn.gravatar.com/avatar/35fef74d731255cd569c2c2b0b9e87e4?s=200
+avatar: https://cn.gravatar.com/avatar/8bb0fc4afb815b0c2b303e88ce29f464?s=200
 avatarLink: /about
 maxContentWidth: 1000px # set the main content column's max-width property. keep it blank to unlimited the width
 copyright: # the copyright text in the footer, could be richtext
@@ -22,23 +22,19 @@ copyright: # the copyright text in the footer, could be richtext
 # There are also some special link items representing in string: 'categories', 'tags' and 'archives'
 nav:
   -
-    - categories # display a collapsible category list
-    - tags       # display a collapsible tag list
-    - archives   # display a collapsible archive list
-  -
     -
-      name: Homepage
+      name: Home
       url: '/'
     -
-      name: By Year
+      name: Archives
       url: /archives
   -
     -
-      name: Chan
-      url: https://github.com/denjones/hexo-theme-chan
+      name: Twitter
+      url: https://twitter.com/mikegeyser
     -
       name: Github
-      url: https://github.com/denjones
+      url: https://github.com/mikegeyser
     -
       name: RSS
       url: /atom.xml
